@@ -1,3 +1,22 @@
+> [!CAUTION]
+> ## MAGNON / ARCHIVE — this GitHub repo is **not** the live Hermes runtime
+>
+> **Live runtime on Magnon machines** is `~/.hermes/hermes-agent` tracking **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** upstream. It is **not** this `syocum11/hermes-agent` fork.
+>
+> **This repository is a MIRROR / ARCHIVE only.** Do not clone it expecting live profiles, SOULs, HVAC state, or production config.
+>
+> **Forbidden on Magnon mini / Admins-iMac:** `curl … | bash` `install.sh`, PowerShell `iex` installers, and `hermes reinstall` (or any wipe of `~/.hermes`).
+>
+> **Profiles (live hosts only):** `nova` = PA on the mini · `echo` = HVAC on Admins-iMac (see `echo-hvac-controller` + `CSW devices.md`) · `forge` / `scout` as named.
+>
+> **Magnon agents:** read `CSW devices.md` and profile SOULs for ops. Do **not** treat upstream `AGENTS.md` as Magnon Ops source of truth.
+>
+> **Pin policy:** do not auto-pull or update without Scott.
+>
+> Full note: **[MAGNON-LIVE.md](MAGNON-LIVE.md)**
+>
+> Everything below this banner is upstream Hermes product documentation, not a Magnon runbook.
+
 <p align="center">
   <img src="assets/banner.png" alt="Hermes Agent" width="100%">
 </p>
@@ -33,6 +52,9 @@ Use any model you want — [Nous Portal](https://portal.nousresearch.com), OpenR
 ---
 
 ## Quick Install
+
+> [!WARNING]
+> **Magnon mini / Admins-iMac:** the installers below are **forbidden**. They can wipe or replace `~/.hermes`. See [MAGNON-LIVE.md](MAGNON-LIVE.md). This archive is not a live checkout — do not treat the commands as ops steps.
 
 ### Linux, macOS, WSL2, Termux
 
