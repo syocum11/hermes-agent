@@ -8,6 +8,11 @@
 This file is the Magnon pointer for anyone (human or agent) who lands on this fork.
 It does not replace live host docs. It exists so this archive is not mistaken for the runtime.
 
+Matching stamps (banner / pointer only — they do not rewrite upstream product docs):
+
+- [README.md](README.md) — CAUTION banner at the top
+- [AGENTS.md](AGENTS.md) — LIVE STATUS stamp at the top; remainder is Nous Research contributor guidance
+
 ---
 
 ## Where the live runtime actually is
@@ -68,7 +73,7 @@ For Magnon operations, read **in this order** on the live hosts (or the ops docs
 
 **Do not** treat upstream `AGENTS.md` (in this repo or in Nous Research’s tree) as Magnon Ops source of truth. That document is for Hermes contributors. It is not the Magnon runbook, device map, or profile constitution.
 
-This archive may contain a copy of upstream `AGENTS.md`. That does not make it Magnon policy.
+This archive's [`AGENTS.md`](AGENTS.md) opens with a LIVE STATUS / MAGNON ARCHIVE stamp so coding agents do not treat it as live Magnon Ops. Below that stamp the file is still upstream Hermes contributor guidance. That does not make it Magnon policy.
 
 ---
 

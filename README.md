@@ -9,7 +9,7 @@
 >
 > **Profiles (live hosts only):** `nova` = PA on the mini · `echo` = HVAC on Admins-iMac (see `echo-hvac-controller` + `CSW devices.md`) · `forge` / `scout` as named.
 >
-> **Magnon agents:** read `CSW devices.md` and profile SOULs for ops. Do **not** treat upstream `AGENTS.md` as Magnon Ops source of truth.
+> **Magnon agents:** read `CSW devices.md` and profile SOULs for ops. Do **not** treat upstream [`AGENTS.md`](AGENTS.md) as Magnon Ops source of truth (ARCHIVE stamp at the top of that file).
 >
 > **Pin policy:** do not auto-pull or update without Scott.
 >

@@ -1,3 +1,14 @@
+> [!CAUTION]
+> ## LIVE STATUS — MAGNON ARCHIVE (2026-09-09)
+>
+> **This `syocum11/hermes-agent` tree is a MIRROR / ARCHIVE, not the live Magnon Hermes runtime.**
+>
+> Live runtime on Magnon machines is `~/.hermes/hermes-agent` tracking **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — not this fork. Do **not** treat this file as Magnon Ops source of truth.
+>
+> **Forbidden on Magnon mini / Admins-iMac:** `curl … | bash` `install.sh`, PowerShell installers, `hermes reinstall`, wiping `~/.hermes`.
+>
+> Full note: **[MAGNON-LIVE.md](MAGNON-LIVE.md)** · [README](README.md) banner. Everything below is upstream Nous Research contributor guidance for Hermes Agent. It is useful as product docs; it is not a Magnon runbook.
+
 # Hermes Agent - Development Guide
 
 Instructions for AI coding assistants and developers working on the hermes-agent codebase.
